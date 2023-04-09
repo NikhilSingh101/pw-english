@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* background-color:whitesmoke; */
+  }
+  
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 34px;
+    background-color: #000;
+  }
+  .logo{
+    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .grow-list {
+    flex-grow: 1;
+  }
+  
+  img {/*.logo*/
+    width: 92px;
+    height: 32px;
+  }
+  
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    /* gap: 63px; */
+    gap: 50px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    /* color: black; */
+    margin-left: 64px;
+  }
+  
+  .list-item {
+    cursor: pointer;
+  }
+  
+  .button-small {
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+  
+  .hero {
+    background-image: url("https://img.freepik.com/free-vector/plane-fly-morning-sky-with-pink-fluffy-clouds_107791-13090.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+  }
+  
+  .hero-heading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    color: blue;
+    /* color: white; */
+    padding-top: 120px;
+  }
+  
+  .hero-description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    color: blue;
+    /* color: white; */
+  }
+  
+  .button-large {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 50px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
